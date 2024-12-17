@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* margin-top: 20px; */
+}
+h1,h2,h3,h4,h5,h6{color: #1D1D1D;font-weight: 600;}
+p{color:#1D1D1D ;font-weight: 400;}
+span{color: #FFCB45;font-weight: 600;}
+
+.header_bg{
+    background-color: #FFF9EA;
+    height: 710px;
+    /* padding: 20px; */
+}
+
+
+@media screen and (max-width:992px){
+    .header_bg{
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .header_bg{
+        height: 500px;
+    }
+} 
+.eclipse{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    border-radius: 50%;
+    background:#FFAC4B;
+}
+
+.bg{
+    background: white;
+    padding: 50px;
+}
+.design_eclipse{
+    position: relative;
+    top: 200px;
+}
+
+
+.review_details{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.reviews{
+    width: 500px;
+    background: #F1F1F1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:993px){
+    .design_eclipse{
+        display: none;
+    }
+}
+
+.food_img{
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+
+.food-content{
+    width: 100%;
+    background: white;
+    border-radius: 40px 40px 0px 0px;
+    padding: 20px;
+}
+
+.sign-in{
+    background: rgba(0, 0, 0, 0.2) url(../images/pro1/unsplash_2lWGQ02DGL8.jpg);
+    height: 332px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+
+}
+
+.sign_content{
+    position: relative;
+    top: 150px;
+}
+
+.footer_bg{
+    background-color: #FFF9EA;
+    /* height: 400px; */
+    padding: 20px;
+}
+
+
+
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #FFCB45;
+    color: black;
+    border-radius: 50%;
+    border-radius: 1px solid #ffff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s ;
+    z-index: 5;
+}
+.scrollTop:hover{
+    background: black;
+    color:#FFCB45;
+    transition: 0.5s;
+}

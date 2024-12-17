@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+h1,h2,h3,h4,h5,h6{color: #FFFFFF;}
+p{color:#aea6a6 ;}
+span{color: #00EEFF;font-weight: 300;}
+
+.header_bg{
+    /* background: rgba(0, 0, 0, 0.6) url('https://cdn2.unrealengine.com/hub-2560x1440-background-588054924.gif?resize=1&w=1920'); */
+    background: rgba(0, 0, 0, 0.6) url(../images/bg.jpg);
+
+    /* background-image: rgba(0, 0, 0, 0.6) url(/Resume/images/image\ 1.jpg); */
+
+    /* height: 1000px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    /* background-attachment: fixed; */
+}
+/* 
+.content{
+    position: relative;
+    margin: 30vh auto;
+    display: flex;
+    width: 500px;
+    font-weight: bold;
+    
+    justify-content: start;
+}
+p > span:nth-of-type(1){
+    color: #00EEFF;
+}
+p > span:nth-of-type(2){
+    color:red;
+}
+p > span:nth-of-type(3){
+    color: #FF685B;
+}
+.word{
+    position: relative;
+    opacity: 0;
+    left: 45%;
+}
+.letter{
+    display: inline-block;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 30px;
+}
+.letter .out{
+    transform: rotateX('90deg');
+    transform: transform .32s
+    cubic-bazier(0.55,0.55,0.0675,0.19);
+}
+.letter .in{
+    transform: rotateX('0deg');
+    transform: transform .32s
+    cubic-bazier(0.175,0.855,0.32,1.275);
+}
+.letter.behind{
+    transform: rotateX('-90deg');
+} */
+
+
+
+
+
+ @media screen and (min-width:576px){
+    .header_bg{
+        height: 1000px;
+    }
+   
+   
+} 
+ @media screen and (max-width:767px){
+
+    .contact{
+        display: none;
+    }
+
+    .skill-title{
+        margin-top: 50px;
+
+    }
+   
+} 
+
+
+@media screen and (min-width:992px){
+    .header_bg{
+        height: 600px;
+    }
+    
+}
+
+
+/* skills  */
+/* .outer{
+    width: 200px;
+    height: 20px;
+    background: rgb(151, 149, 149);
+    border-radius: 20px;
+}
+.inner{
+    width: 150px;
+    height: 20px;
+    background:#00EEFF;
+    border-radius: 20px;
+
+} */
+
+.bg-resume{
+    background:  #00EEFF;
+}
+
+.skill-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.progress{
+    height: 25px;
+    margin-bottom: 20px;
+}
+.progress-bar{
+    transition: width 2s ease-in-out;
+    height:30px;
+    
+
+}
+
+
+.bg{
+    background-color: #fbf8f8;
+    padding: 50px;  
+}
+.bg2{
+    background-color: #323946;
+    padding: 70px;
+    width: 100vw;
+    /* height: 500px; */
+}
+.bg3{
+    background-color: #1F242D;
+    padding: 80px;
+    /* height: 750px; */
+}
+.bg4{
+    background-color: #323946;
+    padding: 80px;
+    /* height: 750px; */
+}
+.my_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* transform: translateX(50px); */
+    transform: translatey(-130px);
+    box-shadow: 2px 5px 10px 5px  black;
+
+}
+.about_me{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    background-color: #00EEFF;
+    border-radius: 20px;
+}
+
+.skill{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00EEFF;
+    border-radius: 50%;
+
+}
+
+.line{
+    width: 50px;
+    height: 3px;
+   background-color: #FF685B;
+}
+.line2{
+    width: 100px;
+    height: 8px;
+   background-color: #FF685B;
+}
+.line3{
+    width: 50px;
+    height:3px;
+   background-color: #FF685B;
+  
+}
+.bgImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background:#E5F9F7;
+    display: flex;
+    align-items: center;
+
+}
+.bgImg img{
+padding: 10% 15% 0% 0%;
+}
+.text{
+    font-size: 2rem;
+    font-weight:500;
+    position: relative;
+    top: -100px;
+    left: 20px;
+}
+.text2{
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: -100px;
+    left: 75px;
+
+}
+.text3{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FF685B;
+}
+
+
+.btn-orange{
+    background-color: #FF685B;
+    color: white;
+    margin-left: -5px;
+
+}
+input[type=submit]{
+
+background: #00EEFF;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #00EEFF;
+    color: black;
+    border-radius: 50%;
+    border-radius: 1px solid #ffff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s ;
+    z-index: 5;
+}
+.scrollTop:hover{
+    background: black;
+    color:#00EEFF;
+    transition: 0.5s;
+}
