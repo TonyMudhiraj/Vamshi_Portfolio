@@ -164,7 +164,7 @@ function scrollToTop(){
 
 
 var typed = new Typed(".auto-type",{
-    strings : ["User Research","WireFraming","Visual Design","Interaction Design","User Testing","Continuous Improvement"],
+    strings : ["User Researcher","WireFramer","Visual Designer","Interaction Designer","User Tester","Continuous Improvementing"],
     typeSpeed : 100,
     loop : 100
 })
